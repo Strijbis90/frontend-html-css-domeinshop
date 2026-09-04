@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header div {
+    max-width: 1000px;              /*nooit breder dan 1000px*/
+    margin: 0 auto;
+    padding: 130px 0;                /*nooit meer dan 50px boven en onder tekst*/
+    text-align: center;
+    background-image: url("assets/images/mountains.jpg");
+    background-size: cover;
+    height: 400px;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+header h1 {
+    margin-bottom: 15px;
+    font-size: 60px;        /* Maak de titel groter of kleiner */
+    font-weight: 700;       /* Maak de tekst dikgedrukt (bold) */
+    margin-bottom: 3px;    /* afstand tot volgende tekst */
+}
+header p {
+    margin-bottom: 50px;
+    font-size: 8px;        /* Maak de subtitel groter of kleiner */
+    font-weight: 400;       /* Normale dikte */
+    margin-bottom: 25px;    /* afstand tot volgende tekst */
+}
+form {
+    display: flex;                  /* input en button naast elkaar*/
+    max-width: 320px;               /* Pas deze waarde aan naar wens */
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;                 /* Centreert het formulier */
+    font-size: 10px;
+}
+input {
+    width: 60%;
+    height: 40px;
+    border-radius: 25px 0 0 25px;
+    background-color: transparent;
+    /*outline: none;*/
+    border: 1px solid #000;
+    font-size: 8px;
+}
+button {
+    width: 40%;
+    border-radius: 0 25px 25px 0;
+    margin-left: -1px;
+    background-color: #000000;
+    color: #ffffff;
+    /*outline: none;*/
+    border: none;
+    font-size: 10px;
+}
+main {
+    max-width: 750px; /*nooit breder dan 1000px*/
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+}
+.domain-check h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.callcenter {
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+.callcenter h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+.callcenter button {
+    width: 20%;
+    height: 40px;
+    border-radius: 25px;
+    margin-left: 0;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.callcenter {
+}
+.callcenter img {
+    border-radius: 10px;    /* afgeronde hoeken */
+    width: 100%;            /* afbeelding maximaal zo breed als de container */
+    margin-bottom: 20px;
+}
+a {
+    color: #899CA0;         /* kleur van de link */
+    text-decoration: underline; /* lijntje onder de link */
+}
+a:hover {
+    text-decoration: none;  /* lijntje verdwijnt bij muis erover */
+}
+.faq {
+    margin-top: 50px;
+    text-align: left;
+}
+.faq h2 {
+    text-align: center;
+    margin-bottom:50px;
+}
+.faq details {
+    border-bottom: 1px solid #899CA0;
+    padding: 20px 0;
+}
+.faq summary {
+    font-weight: 600;
+    cursor: pointer;
+}
+.faq details p {
+    margin-top: 15px;
+}
+.review {
+    background-color: white;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px #899CA0;
+    border-radius: 25px
+}
+.author img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: -400px;
+}
+.quote {
+    font-size: 50px;
+    font-weight: 700;
+}
+footer { background-color: black; color: white; text-align: center; padding: 20px; margin-top: 40px; } footer p { margin: 0; }
+/* Kleuren */
+
+/*
+Grijs: #899CA0
+Donkergroen: #1C2B32
+*/
+
+/* Algemene stijlen */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
